@@ -19,9 +19,3 @@ class Pokemon:
             "number": self.number,
             "item": self.item
         }
-# froakie = Pokemon({
-#     "name": "Froakie",
-#     "types": ["Water"],
-#     "number": 656,
-#     "item": "King's Rock"
-# })
