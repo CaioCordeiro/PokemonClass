@@ -1,1 +1,8 @@
-olá, tudo bem?git
+olá, tudo bem?
+
+- Pokemon
+    > Nome
+    > Tipo
+    > Stats
+    > Moves
+    > Item
