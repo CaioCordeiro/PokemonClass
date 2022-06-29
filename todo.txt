@@ -1,10 +1,32 @@
-APRENDENDO VERSIONAMENTO
-
-olá, tudo bem?
+- CRUD
+     - Create
+        - Ter uma entidade Pokemon com os atributos descritos abaixo (X)
+        - Receber os dados do Pokemon (X)
+        - Criar o Pokemon (X)
+        - Validar os dados (X)
+        - Armazenar (X)
+     - Read
+        - Ler todo o database (X)
+        - Ler um pokemon individual (X)
+            - Reber o number de um pokemon (X)
+            - Transformar em json (X)
+            - Enviar para o client (X)
+     - Update
+        - Receber um numero de um pokemon (X)
+        - Receber fields que queremos editar (X)
+        - Validou se os fields estão corretos (X)
+        - Achar esse pokemon pelo numero (X)
+        - Editar os valores (X)
+        - Retornar se foi sucesso (X)
+     - Delete
+- Versionamento (git)
+- Persistir os dados
 
 - Pokemon
-    > Nome
-    > Tipo
-    > Stats
-    > Moves
-    > Item
+    - Nome -> String
+    - Numero -> Int
+    - Typos -> List[String]
+        - 1 ou 2 tipos diferentes
+    - Item -> String
+        - So pode ter 1
+        - So pode ter item de uma lista pre determinada
